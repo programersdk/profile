@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="projects-section.css">
+<script src="fetch-github-projects.js" defer></script>
   </head>
   <body>
     <!-- header of my portfolio web -->
@@ -86,106 +88,7 @@
       </div>
     </section>
 
-    <!-- My Work / Projects -->
-    <section id="work" class="work-section">
-      <div class="container">
-  <h2 class="section-title reveal" data-delay="100">My Work</h2>
-  <p class="section-sub reveal" data-delay="140">Selected projects — clean, accessible, and focused on performance.</p>
-
-        <div class="work-grid">
-          <!-- Card 1 -->
-          <article class="work-card reveal" data-delay="120">
-            <div class="card-media">
-              <img src="one.jpg" alt="Project One thumbnail" />
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Project One</h3>
-              <p class="card-desc">A responsive landing page built with accessibility and performance in mind.</p>
-            </div>
-            <div class="card-overlay" aria-hidden="true">
-              <p class="overlay-text">Role: Frontend · Tools: HTML, CSS, JS</p>
-              <a class="overlay-link" href="#">View details</a>
-            </div>
-          </article>
-
-          <!-- Card 2 -->
-          <article class="work-card reveal" data-delay="180">
-            <div class="card-media">
-              <img src="two.jpg" alt="Project Two thumbnail" />
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Project Two</h3>
-              <p class="card-desc">An interactive dashboard focused on data clarity and speed.</p>
-            </div>
-            <div class="card-overlay" aria-hidden="true">
-              <p class="overlay-text">Role: Full-stack · Tools: React, Node</p>
-              <a class="overlay-link" href="#">View details</a>
-            </div>
-          </article>
-
-          <!-- Card 3 -->
-          <article class="work-card reveal" data-delay="240">
-            <div class="card-media">
-              <img src="three.png" alt="Project Three thumbnail" />
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Project Three</h3>
-              <p class="card-desc">Micro-interactions and animated components for better UX.</p>
-            </div>
-            <div class="card-overlay" aria-hidden="true">
-              <p class="overlay-text">Role: UI/UX · Tools: CSS, JS</p>
-              <a class="overlay-link" href="#">View details</a>
-            </div>
-          </article>
-
-          <!-- Card 4 -->
-          <article class="work-card reveal" data-delay="300">
-            <div class="card-media">
-              <img src="four.JPG" alt="Project Four thumbnail" />
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Project Four</h3>
-              <p class="card-desc">Performance tuning and accessibility improvements for legacy sites.</p>
-            </div>
-            <div class="card-overlay" aria-hidden="true">
-              <p class="overlay-text">Role: Engineer · Tools: Audits, Optimization</p>
-              <a class="overlay-link" href="#">View details</a>
-            </div>
-          </article>
-
-          <!-- Card 5 -->
-          <article class="work-card reveal" data-delay="360">
-            <div class="card-media">
-              <img src="five.jpg" alt="Project Five thumbnail" />
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Project Five</h3>
-              <p class="card-desc">A small AI-powered feature prototype integrated into a web app.</p>
-            </div>
-            <div class="card-overlay" aria-hidden="true">
-              <p class="overlay-text">Role: Prototype · Tools: JS, Lightweight AI</p>
-              <a class="overlay-link" href="#">View details</a>
-            </div>
-          </article>
-
-          <!-- Card 6 -->
-          <article class="work-card reveal" data-delay="420">
-            <div class="card-media">
-              <img src="six.JPG" alt="Project Six thumbnail" />
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Project Six</h3>
-              <p class="card-desc">A modular component library with themeable tokens.</p>
-            </div>
-            <div class="card-overlay" aria-hidden="true">
-              <p class="overlay-text">Role: Library · Tools: CSS, Design Tokens</p>
-              <a class="overlay-link" href="#">View details</a>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
+   <div id="projects"></div>
 
     <!-- Contact -->
     <section id="contact" class="contact-section">
@@ -228,3 +131,4 @@
     <script src="index.js"></script>
   </body>
 </html>
+
